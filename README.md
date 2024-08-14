@@ -1,4 +1,4 @@
-[How to Run]
+# [How to Run]
 
 - Download the release binaries from the Release section on the right side of the repository page.
 - ![image](https://github.com/user-attachments/assets/fffa6c87-83b9-4f7f-8e40-5710d9908b77)
@@ -6,7 +6,7 @@
 - Run the exe
 - Thats it!
 
-[Access exported files]
+# [Access exported files]
 
 - After you have run the script, you should see a newly created sub-directory called `<EQDirectory>/ExportedUIFiles` (default value, can be changed in `exporter.ini`)
   - This directory will have some organized sub-directories (All, CharName1, CharName2, etc).
@@ -20,7 +20,7 @@
     - These suffix names can be set in `exporter.ini`: `source_server_short_name` and `target_server_short_name`
     - Default values are: `source_server_short_name` = "CWR" and `target_server_short_name` = "CWTest"
 
-[Compile]
+# [Compile]
 
 - THIS IS NOT REQUIRED! You only need to compile your own binaries if you want to change the application.
 - If you just want to USE the default app, you can simply use the Release binaries.
