@@ -1,5 +1,6 @@
 [How to Run]
 
+- Download the release binaries.
 - Place the exe in the same directory as your eq client.
 - Run the exe
 - Thats it!
@@ -20,3 +21,4 @@
 - You only need to compile your own binaries if you want to modify the application. If you just want to use the app, you can simply use the Release binaries.
 - I use a package called pyinstaller to compile this python script into a binary file. You can alternatively just run the script in place (will need Python installed).
 - Once you have installed `pyinstaller` (https://pyinstaller.org), you can run the following command to compile binaries: `pyinstaller main.py -F --uac-admin -i Old_eq_icon.ico`
+ - Your exe will be saved in `<project_folder/dist/main.exe`
