@@ -24,6 +24,6 @@
 
 - THIS IS NOT REQUIRED! You only need to compile your own binaries if you want to change the application.
 - If you just want to USE the default app, you can simply use the Release binaries.
-- I use a package called pyinstaller to compile this python script into a binary file. You can alternatively just run the script in place (will need Python installed).
+- I use a package called `pyinstaller` to compile this python script into a binary file. You can alternatively just run the script in place (will need Python installed: https://www.python.org/downloads/).
 - Once you have installed `pyinstaller` (https://pyinstaller.org), you can run the following command to compile binaries: `pyinstaller main.py -F --uac-admin -i Old_eq_icon.ico`
  - Your exe will be saved in `<project_folder/dist/main.exe`
